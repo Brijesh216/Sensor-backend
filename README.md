@@ -36,26 +36,27 @@ This project simulates a real-world IoT monitoring system where multiple sensors
 ---
 
 ## 📂 Project Structure
+
+```bash
 sensor-backend/
 │
 ├── config/
-│ └── db.js # MongoDB connection
+│   └── db.js                # MongoDB connection
 │
 ├── controllers/
-│ └── sensorController.js # Business logic
+│   └── sensorController.js  # Business logic
 │
 ├── models/
-│ └── Sensor.js # Database schema
+│   └── Sensor.js            # Database schema
 │
 ├── routes/
-│ └── sensorRoutes.js # API endpoints
+│   └── sensorRoutes.js      # API endpoints
 │
-├── server.js # Entry point
+├── server.js                # Entry point
 ├── package.json
-├── .env # Environment variables (not pushed)
-
----
-
+├── .env                     # Environment variables (not pushed)
+└── README.md
+```
 ---
 
 ## ⚙️ Installation & Setup
